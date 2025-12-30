@@ -1,6 +1,6 @@
 require:
   - bolt
-  - fixme
+  - mcp_library
 data_pack:
   load: "src"
 pipeline:
