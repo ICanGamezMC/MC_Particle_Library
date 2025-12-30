@@ -1,10 +1,9 @@
 [tool.poetry]
 name = "mcp_library"
 version = "0.0.1"
-description = "mcp_library_repo_description"
-authors = ["mcp_library_user_name <mcp_library_user_email>"]
+description = "This is a particle library for minecraft bolt datapacks"
+authors = ["ICanGamez"]
 license = "MIT"
-
 homepage = "https://github.com/ICanGamezMC/MC_Particle_Library"
 readme = "README.md"
 
