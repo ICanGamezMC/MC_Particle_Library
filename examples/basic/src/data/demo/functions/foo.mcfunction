@@ -1,3 +1,3 @@
-from fixme:basic import hello_world
+from mcp_library:basic import hello_world
 
 hello_world()

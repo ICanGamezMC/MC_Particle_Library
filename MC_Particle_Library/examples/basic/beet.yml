@@ -1,7 +1,0 @@
-require:
-  - bolt
-  - mcp_library
-data_pack:
-  load: "src"
-pipeline:
-  - mecha

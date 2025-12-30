@@ -1,11 +1,10 @@
 [tool.poetry]
-name = "fixme"
-version = "0.2.8"
-description = "fixme_repo_description"
-authors = ["fixme_user_name <fixme_user_email>"]
+name = "mcp_library"
+version = "0.0.1"
+description = "This is a particle library for minecraft bolt datapacks"
+authors = ["ICanGamez"]
 license = "MIT"
-
-homepage = "fixme_repo_url"
+homepage = "https://github.com/ICanGamezMC/MC_Particle_Library"
 readme = "README.md"
 
 keywords = [
@@ -16,7 +15,7 @@ keywords = [
   "mcfunction",
 ]
 
-include = ["fixme/py.typed"]
+include = ["mcp_library/py.typed"]
 
 [tool.poetry.dependencies]
 python = "^3.10"
@@ -35,6 +34,7 @@ python-semantic-release = "^7.32.1"
 [tool.pytest.ini_options]
 addopts = "tests --import-mode=importlib"
 
+
 [tool.pyright]
 typeCheckingMode = "strict"
 
@@ -46,7 +46,7 @@ profile = "black"
 
 [tool.semantic_release]
 branch = "main"
-version_variable = "fixme/__init__.py:__version__"
+version_variable = "mcp_library/__init__.py:__version__"
 version_toml = "pyproject.toml:tool.poetry.version"
 major_on_zero = false
 upload_to_repository = false
