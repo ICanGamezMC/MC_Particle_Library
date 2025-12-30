@@ -34,7 +34,6 @@ python-semantic-release = "^7.32.1"
 [tool.pytest.ini_options]
 addopts = "tests --import-mode=importlib"
 
-
 [tool.pyright]
 typeCheckingMode = "strict"
 
